@@ -3,7 +3,7 @@
 
 # This script provides a CSV file for coloring contigs in Bandage by bins produced in Anvi'o.
 # 
-# Input:
+# Edit this script to name the following input:
 # 
 # 1. File listing bins
 # 2. Output folder from anvi-summarize (or other folder containing bin folders)
