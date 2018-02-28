@@ -6,7 +6,7 @@
 #
 # Output: "bins-color.csv"
 
-# Modified by Antti Karkman, 1/2018
+# Modified by Antti Karkman, 2/2018
 
 import argparse
 
