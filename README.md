@@ -1,9 +1,9 @@
-# Supplemental scripts for Barnum et. al 2018
+# Supplemental code for Barnum et. al 2018
 
 In a recent study, I obtained metagenome-assembled genomes (MAGs) from enrichment communities totaling about 40 genomes. This repo contains code for assisting with similar work and a PDF of the publication.
 
 Citation:
->Barnum, Tyler P. et al. 2018. “Genome-Resolved Metagenomics Identifies Genetic Mobility, Metabolic Interactions, and Unexpected Diversity in Perchlorate-Reducing Communities.” ISME Journal 12: 1568–1581.
+>Tyler P. Barnum, Israel A. Figueroa, Charlotte I. Carlström, Lauren N. Lucas, Anna L. Engelbrektson, and John D. Coates.2018. “Genome-Resolved Metagenomics Identifies Genetic Mobility, Metabolic Interactions, and Unexpected Diversity in Perchlorate-Reducing Communities.” ISME Journal 12: 1568–1581.
 
 ## Using assembly graphs for binning
 
