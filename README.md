@@ -9,10 +9,13 @@ Citation:
 
 The script anvi-summary-to-bandage-csv.py is a part of the following tutorial: https://tylerbarnum.com/2018/02/26/how-to-use-assembly-graphs-with-metagenomic-datasets/. Specifically, it converts output from Anvi'o, a MAG binning tool, to the coloring scheme preferred by Bandage, an assembly visual tool, to improve binning especially for mobile genes (tranposons, recently horizontally transferred, etc.)
 
-Figure 4: Manual assembly of perchlorate reduction genes within mobile genetic elements
+#### Example fig: assembly graph color by bin
+![assembly graph image](https://github.com/tylerbarnum/perchlorate-metagenome-2018/blob/master/images/graph-2.png)
+
+Figures in paper:
+- Figure 4: Manual assembly of perchlorate reduction genes within mobile genetic elements
 
 Dependencies:
-
 - Python 2.7 (untested in Python 3)
 
 ## Plotting a genomic summary of the community: custom gene annotation, relative abundance, and index of replication (iRep)
