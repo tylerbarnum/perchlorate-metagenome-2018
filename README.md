@@ -19,6 +19,8 @@ Dependencies:
 
 The notebook summarize-community.ipynb produces plots for summarizing the community based on coverage and replication data (externally produced) and functional annotations using custom HMMs and thresholds (generated here with the program hmmer).
 
+![example plot](https://github.com/tylerbarnum/perchlorate-metagenome-2018/blob/master/data/output/community-summary.png)
+
 Figure 1: Summary of energy metabolism genes, abundance, and activity of metagenome-assembled genomes.
 
 Figure 5: Relative abundance of metabolisms.
