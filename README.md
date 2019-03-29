@@ -17,12 +17,13 @@ Dependencies:
 
 ## Plotting a genomic summary of the community: custom gene annotation, relative abundance, and index of replication (iRep)
 
-The notebook summarize-community.ipynb produces plots for summarizing the community based on coverage and replication data (externally produced) and functional annotations using custom HMMs and thresholds.
+The notebook summarize-community.ipynb produces plots for summarizing the community based on coverage and replication data (externally produced) and functional annotations using custom HMMs and thresholds (generated here with the program hmmer).
 
 Figure 1: Summary of energy metabolism genes, abundance, and activity of metagenome-assembled genomes.
+
 Figure 5: Relative abundance of metabolisms.
 
 Dependencies:
 
-- hmmer v. 3.1b2+
+- hmmer v. 3.1b2+ (must be installed and in the path)
 - Python 3.7
