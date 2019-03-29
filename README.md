@@ -32,3 +32,20 @@ Input:
 
 - ./data/genomes-data.csv table with genome data (coverage and index of replication)
 - ./data/genomes/ directory with protein annotations for each genome in a separate .faa file
+- For each protein (e.g. rpS3), an HMM (rpS3.hmm) and threshold score (rpS3.T)
+
+#### About HMMS:
+
+The .hmm file is constructed from an alignment of proteins using the hmmer function hmmbuild. The threshold score in the .T file limits the reported hits to only those above the threshold value. Take care to create an HMM from many representative proteins and a score that appropriately selects hits - it should be an iterative process. The better the HMM, the easier selecting a score threshold will be. Using HMMs may not be appropriate for you. In that case, edit the code to replace the HMM annotations with uploading gene presence/absence from another source.
+
+```bash
+# Build HMM and test
+PROTEIN=rps3
+muscle -in $PROTEIN.faa > $PROTEIN.aln
+hmmbuild $PROTEIN.hmm $PROTEIN.aln
+hmmsearch $PROTEIN.hmm protein_database.faa
+
+# Select threshold from output and test
+THRESHOLD=50
+hmmsearch -T $THRESHOLD $PROTEIN.hmm protein_database.faa
+```
