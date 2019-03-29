@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ./data/hmms/ccld.hmm
+# Target file:     ./data/genomes/GEN25.faa
+# Option settings: hmmsearch --tblout ./data/output/GEN25.ccld.table.txt -T 125 ./data/hmms/ccld.hmm ./data/genomes/GEN25.faa 
+# Current dir:     /Users/tylerbarnum/Research/perchlorate-metagenome-2018
+# Date:            Thu Mar 28 11:44:36 2019
+# [ok]
