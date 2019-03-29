@@ -27,3 +27,8 @@ Dependencies:
 
 - hmmer v. 3.1b2+ (must be installed and in the path)
 - Python 3.7
+
+Input:
+
+- ./data/genomes-data.csv table with genome data (coverage and index of replication)
+- ./data/genomes/ directory with protein annotations for each genome in a separate .faa file
