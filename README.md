@@ -9,7 +9,7 @@ Citation:
 
 The script anvi-summary-to-bandage-csv.py is a part of the following tutorial: https://tylerbarnum.com/2018/02/26/how-to-use-assembly-graphs-with-metagenomic-datasets/. Specifically, it converts output from Anvi'o, a MAG binning tool, to the coloring scheme preferred by Bandage, an assembly visual tool, to improve binning especially for mobile genes (tranposons, recently horizontally transferred, etc.)
 
-#### Example fig: assembly graph color by bin
+#### Example: Assembly graph color by bin
 ![assembly graph image](https://github.com/tylerbarnum/perchlorate-metagenome-2018/blob/master/images/graph-2.png)
 
 Figures in paper:
@@ -22,19 +22,18 @@ Dependencies:
 
 The notebook summarize-community.ipynb produces plots for summarizing the community based on coverage and replication data (externally produced) and functional annotations using custom HMMs and thresholds (generated here with the program hmmer).
 
+#### Example: Summary of community
 ![example plot](https://github.com/tylerbarnum/perchlorate-metagenome-2018/blob/master/data/output/community-summary.png)
 
-Figure 1: Summary of energy metabolism genes, abundance, and activity of metagenome-assembled genomes.
-
-Figure 5: Relative abundance of metabolisms.
+Figures in paper:
+- Figure 1: Summary of energy metabolism genes, abundance, and activity of metagenome-assembled genomes.
+- Figure 5: Relative abundance of metabolisms.
 
 Dependencies:
-
 - hmmer v. 3.1b2+ (must be installed and in the path)
 - Python 3.7
 
 Input:
-
 - ./data/genomes-data.csv table with genome data (coverage and index of replication)
 - ./data/genomes/ directory with protein annotations for each genome in a separate .faa file
 - For each protein (e.g. rpS3), an HMM (rpS3.hmm) and threshold score (rpS3.T)
